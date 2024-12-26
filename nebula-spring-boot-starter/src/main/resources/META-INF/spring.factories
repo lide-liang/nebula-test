@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ldl.nebula.config.NebulaAutoConfiguration, \
+com.ldl.nebula.service.impl.GraphServiceImpl

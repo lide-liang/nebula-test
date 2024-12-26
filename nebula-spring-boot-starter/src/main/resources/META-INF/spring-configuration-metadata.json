@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "nebula",
+      "type": "com.ldl.nebula.config.NebulaGraphProperties",
+      "sourceType": "com.ldl.nebula.config.NebulaGraphProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "nebula.hosts",
+      "type": "java.lang.String",
+      "sourceType": "com.ldl.nebula.config.NebulaGraphProperties",
+      "description": "nebula连接地址",
+      "defaultValue": "127.0.0.1:9669"
+    },
+    {
+      "name": "nebula.max-conn",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ldl.nebula.config.NebulaGraphProperties",
+      "description": "nebula最大连接数",
+      "defaultValue": "100"
+    },
+    {
+      "name": "nebula.password",
+      "type": "java.lang.String",
+      "sourceType": "com.ldl.nebula.config.NebulaGraphProperties",
+      "description": "nebula密码",
+      "defaultValue": "nebula"
+    },
+    {
+      "name": "nebula.space",
+      "type": "java.lang.String",
+      "sourceType": "com.ldl.nebula.config.NebulaGraphProperties",
+      "description": "nebula图空间",
+      "defaultValue": "sjlzjc2q"
+    },
+    {
+      "name": "nebula.username",
+      "type": "java.lang.String",
+      "sourceType": "com.ldl.nebula.config.NebulaGraphProperties",
+      "description": "nebula用户名",
+      "defaultValue": "root"
+    }
+  ],
+  "hints": []
+}

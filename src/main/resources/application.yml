@@ -1,0 +1,33 @@
+
+
+myapp:
+  nebula:
+    hosts: 192.168.100.133:9669
+    username: root
+    password: nebula
+    max-conn: 100
+
+
+#nebula:
+#  ngbatis:
+#    session-life-length: 300000 # since v1.1.2
+#    check-fixed-rate: 300000 # since v1.1.2
+#    # `use-session-pool` 默认是 false，如开启，则 space 是必须指定的
+#    # space除了使用当前文件的声明意外，还可以使用：(@Space) or xml(space="test")
+#    use-session-pool: false # since v1.1.2
+##  hosts: 127.0.0.1:19669, 127.0.0.1:9669
+#  hosts: 192.168.100.133:9669
+#  username: root
+#  password: nebula
+#  space: test
+#  pool-config:
+#    min-conns-size: 0
+#    max-conns-size: 10
+#    timeout: 0
+#    idle-time: 0
+#    interval-idle: -1
+#    wait-time: 0
+#    min-cluster-health-rate: 1.0
+server:
+  port: 8888
+#    enable-ssl: false

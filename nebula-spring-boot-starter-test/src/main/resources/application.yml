@@ -1,0 +1,7 @@
+nebula:
+  space: basketballplayer
+  hosts: 192.168.100.133:9669
+  username: root
+  password: nebula
+  max-conn: 100
+
